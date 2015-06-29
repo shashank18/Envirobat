@@ -1,0 +1,755 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/trial11"
+    android:shrinkColumns="*"
+    android:stretchColumns="*" >
+
+  <ImageView
+      android:id="@+id/imageView1"
+      android:layout_width="match_parent"
+      android:layout_height="50dp"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentTop="true"
+      android:layout_margin="0px"
+      android:padding="0px"
+      android:src="@drawable/capture3" />
+
+ 
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+ 
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_span="6"
+            android:gravity="center"
+            android:text="DEVICE INFO"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:textStyle="bold" >
+        </TextView>
+    </TableRow>
+    
+   
+     <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+ 
+        <TextView
+            android:id="@+id/textView41"
+            android:text=""
+             android:textColor="#000000"
+            android:textStyle="bold" >
+        </TextView>
+ 
+        <TextView
+            android:id="@+id/textView42"
+            android:gravity="center_horizontal"
+             android:textColor="#000000"
+            android:text="" >
+        </TextView>
+ 
+        <TextView
+            android:id="@+id/textView43"
+            android:gravity="center_horizontal"
+             android:textColor="#000000"
+            android:text="" >
+        </TextView>
+ 
+        <TextView
+            android:id="@+id/textView44"
+            android:gravity="center_horizontal"
+            android:textColor="#000000"
+            android:text="" >
+        </TextView>
+    </TableRow>
+ 
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+ 
+        <TextView
+            android:id="@+id/TextView21"
+              android:textColor="#000000"
+              android:textStyle="bold"
+            android:text="Device Id" >
+        </TextView>
+ 
+        <TextView
+            android:id="@+id/TextView22"
+            android:gravity="center"
+            android:text=" Device Name"
+            android:textStyle="bold"
+              android:textColor="#000000"
+             >
+        </TextView>
+ 
+        <TextView
+            android:id="@+id/TextView23"
+            android:gravity="center"
+            android:text=" Sensor Inerface"
+            android:textStyle="bold"
+             android:textColor="#000000"
+            >
+        </TextView>
+
+        <TextView
+            android:id="@+id/TextView23"
+            android:gravity="center"
+            android:text="Sensor I"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+    
+
+    </TableRow>
+     <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+ 
+        <TextView
+            android:id="@+id/textView41"
+            android:text=""
+             android:textColor="#000000"
+            android:textStyle="bold" >
+        </TextView>
+ 
+        <TextView
+            android:id="@+id/textView42"
+            android:gravity="center_horizontal"
+             android:textColor="#000000"
+            android:text="" >
+        </TextView>
+ 
+        <TextView
+            android:id="@+id/textView43"
+            android:gravity="center_horizontal"
+             android:textColor="#000000"
+            android:text="" >
+        </TextView>
+ 
+        <TextView
+            android:id="@+id/textView44"
+            android:gravity="center_horizontal"
+            android:textColor="#000000"
+            android:text="" >
+        </TextView>
+    </TableRow>
+ 
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+ 
+        <TextView
+            android:id="@+id/textView31"
+            android:text="2013001"
+            android:textStyle="bold"
+             android:textColor="#000000" >
+        </TextView>
+ 
+        <TextView
+            android:id="@+id/textView32"
+            android:gravity="center_horizontal"
+             android:textColor="#000000"
+            android:text="Cense" >
+        </TextView>
+ 
+        <TextView
+            android:id="@+id/textView33"
+            android:gravity="center_horizontal"
+             android:textColor="#000000"
+            android:text="GPRS" >
+        </TextView>
+ 
+        <TextView
+            android:id="@+id/textView34"
+            android:gravity="center_horizontal"
+             android:textColor="#000000"
+            android:text="TGS-CO2" >
+        </TextView>
+    </TableRow>
+ 
+     <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+ 
+        <TextView
+            android:id="@+id/textView41"
+            android:text=""
+             android:textColor="#000000"
+            android:textStyle="bold" >
+        </TextView>
+ 
+        <TextView
+            android:id="@+id/textView42"
+            android:gravity="center_horizontal"
+             android:textColor="#000000"
+            android:text="" >
+        </TextView>
+ 
+        <TextView
+            android:id="@+id/textView43"
+            android:gravity="center_horizontal"
+             android:textColor="#000000"
+            android:text="" >
+        </TextView>
+ 
+        <TextView
+            android:id="@+id/textView44"
+            android:gravity="center_horizontal"
+            android:textColor="#000000"
+            android:text="" >
+        </TextView>
+    </TableRow>
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+ 
+        <TextView
+            android:id="@+id/textView41"
+            android:text="2013002"
+             android:textColor="#000000"
+            android:textStyle="bold" >
+        </TextView>
+ 
+        <TextView
+            android:id="@+id/textView42"
+            android:gravity="center_horizontal"
+             android:textColor="#000000"
+            android:text="Cense" >
+        </TextView>
+ 
+        <TextView
+            android:id="@+id/textView43"
+            android:gravity="center_horizontal"
+             android:textColor="#000000"
+            android:text="GPRS" >
+        </TextView>
+ 
+        <TextView
+            android:id="@+id/textView44"
+            android:gravity="center_horizontal"
+            android:textColor="#000000"
+            android:text="MICS-CO" >
+        </TextView>
+    </TableRow>
+ 
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+ 
+        <TextView
+            android:id="@+id/textView41"
+            android:text=""
+             android:textColor="#000000"
+            android:textStyle="bold" >
+        </TextView>
+ 
+        <TextView
+            android:id="@+id/textView42"
+            android:gravity="center_horizontal"
+             android:textColor="#000000"
+            android:text="" >
+        </TextView>
+ 
+        <TextView
+            android:id="@+id/textView43"
+            android:gravity="center_horizontal"
+             android:textColor="#000000"
+            android:text="" >
+        </TextView>
+ 
+        <TextView
+            android:id="@+id/textView44"
+            android:gravity="center_horizontal"
+            android:textColor="#000000"
+            android:text="" >
+        </TextView>
+    </TableRow>
+     <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+ 
+        <TextView
+            android:id="@+id/textView41"
+            android:text="2013003"
+             android:textColor="#000000"
+            android:textStyle="bold" >
+        </TextView>
+ 
+        <TextView
+            android:id="@+id/textView42"
+            android:gravity="center_horizontal"
+             android:textColor="#000000"
+            android:text="Cense" >
+        </TextView>
+ 
+        <TextView
+            android:id="@+id/textView43"
+            android:gravity="center_horizontal"
+             android:textColor="#000000"
+            android:text="GPRS" >
+        </TextView>
+ 
+        <TextView
+            android:id="@+id/textView44"
+            android:gravity="center_horizontal"
+            android:textColor="#000000"
+            android:text="MiCS-NO2" >
+        </TextView>
+    </TableRow>
+    
+    
+     <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+ 
+        <TextView
+            android:id="@+id/textView41"
+            android:text=""
+             android:textColor="#000000"
+            android:textStyle="bold" >
+        </TextView>
+ 
+        <TextView
+            android:id="@+id/textView42"
+            android:gravity="center_horizontal"
+             android:textColor="#000000"
+            android:text="" >
+        </TextView>
+ 
+        <TextView
+            android:id="@+id/textView43"
+            android:gravity="center_horizontal"
+             android:textColor="#000000"
+            android:text="" >
+        </TextView>
+ 
+        <TextView
+            android:id="@+id/textView44"
+            android:gravity="center_horizontal"
+            android:textColor="#000000"
+            android:text="" >
+        </TextView>
+    </TableRow>
+        <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+ 
+        <TextView
+            android:id="@+id/textView41"
+            android:text="2013004"
+             android:textColor="#000000"
+            android:textStyle="bold" >
+        </TextView>
+ 
+        <TextView
+            android:id="@+id/textView42"
+            android:gravity="center_horizontal"
+             android:textColor="#000000"
+            android:text="Cense" >
+        </TextView>
+ 
+        <TextView
+            android:id="@+id/textView43"
+            android:gravity="center_horizontal"
+             android:textColor="#000000"
+            android:text="GPRS" >
+        </TextView>
+ 
+        <TextView
+            android:id="@+id/textView44"
+            android:gravity="center_horizontal"
+            android:textColor="#000000"
+            android:text="EC420-SO2" >
+        </TextView>
+    </TableRow>
+     <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+ 
+        <TextView
+            android:id="@+id/textView41"
+            android:text=""
+             android:textColor="#000000"
+            android:textStyle="bold" >
+        </TextView>
+ 
+        <TextView
+            android:id="@+id/textView42"
+            android:gravity="center_horizontal"
+             android:textColor="#000000"
+            android:text="" >
+        </TextView>
+ 
+        <TextView
+            android:id="@+id/textView43"
+            android:gravity="center_horizontal"
+             android:textColor="#000000"
+            android:text="" >
+        </TextView>
+ 
+        <TextView
+            android:id="@+id/textView44"
+            android:gravity="center_horizontal"
+            android:textColor="#000000"
+            android:text="" >
+        </TextView>
+    </TableRow>
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+ 
+        <TextView
+            android:id="@+id/textView41"
+            android:text="2013005"
+             android:textColor="#000000"
+            android:textStyle="bold" >
+        </TextView>
+ 
+        <TextView
+            android:id="@+id/textView42"
+            android:gravity="center_horizontal"
+             android:textColor="#000000"
+            android:text="Cense" >
+        </TextView>
+ 
+        <TextView
+            android:id="@+id/textView43"
+            android:gravity="center_horizontal"
+             android:textColor="#000000"
+            android:text="GPRS" >
+        </TextView>
+ 
+        <TextView
+            android:id="@+id/textView44"
+            android:gravity="center_horizontal"
+            android:textColor="#000000"
+            android:text="MiCS-O3" >
+        </TextView>
+    </TableRow>
+     <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+ 
+        <TextView
+            android:id="@+id/textView41"
+            android:text=""
+             android:textColor="#000000"
+            android:textStyle="bold" >
+        </TextView>
+ 
+        <TextView
+            android:id="@+id/textView42"
+            android:gravity="center_horizontal"
+             android:textColor="#000000"
+            android:text="" >
+        </TextView>
+ 
+        <TextView
+            android:id="@+id/textView43"
+            android:gravity="center_horizontal"
+             android:textColor="#000000"
+            android:text="" >
+        </TextView>
+ 
+        <TextView
+            android:id="@+id/textView44"
+            android:gravity="center_horizontal"
+            android:textColor="#000000"
+            android:text="" >
+        </TextView>
+    </TableRow>
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+ 
+        <TextView
+            android:id="@+id/textView41"
+            android:text="2013006"
+             android:textColor="#000000"
+            android:textStyle="bold" >
+        </TextView>
+ 
+        <TextView
+            android:id="@+id/textView42"
+            android:gravity="center_horizontal"
+             android:textColor="#000000"
+            android:text="Cistup" >
+        </TextView>
+ 
+        <TextView
+            android:id="@+id/textView43"
+            android:gravity="center_horizontal"
+             android:textColor="#000000"
+            android:text="GPRS" >
+        </TextView>
+ 
+        <TextView
+            android:id="@+id/textView44"
+            android:gravity="center_horizontal"
+            android:textColor="#000000"
+            android:text="HIH-HUM" >
+        </TextView>
+    </TableRow>
+    
+     <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+ 
+        <TextView
+            android:id="@+id/textView41"
+            android:text=""
+             android:textColor="#000000"
+            android:textStyle="bold" >
+        </TextView>
+ 
+        <TextView
+            android:id="@+id/textView42"
+            android:gravity="center_horizontal"
+             android:textColor="#000000"
+            android:text="" >
+        </TextView>
+ 
+        <TextView
+            android:id="@+id/textView43"
+            android:gravity="center_horizontal"
+             android:textColor="#000000"
+            android:text="" >
+        </TextView>
+ 
+        <TextView
+            android:id="@+id/textView44"
+            android:gravity="center_horizontal"
+            android:textColor="#000000"
+            android:text="" >
+        </TextView>
+    </TableRow>
+   <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+ 
+        <TextView
+            android:id="@+id/textView41"
+            android:text="2013007"
+             android:textColor="#000000"
+            android:textStyle="bold" >
+        </TextView>
+ 
+        <TextView
+            android:id="@+id/textView42"
+            android:gravity="center_horizontal"
+             android:textColor="#000000"
+            android:text="Cense" >
+        </TextView>
+ 
+        <TextView
+            android:id="@+id/textView43"
+            android:gravity="center_horizontal"
+             android:textColor="#000000"
+            android:text="GPRS" >
+        </TextView>
+ 
+        <TextView
+            android:id="@+id/textView44"
+            android:gravity="center_horizontal"
+            android:textColor="#000000"
+            android:text="MiCS-CO" >
+        </TextView>
+    </TableRow>
+        <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+ 
+        <TextView
+            android:id="@+id/textView41"
+            android:text=""
+             android:textColor="#000000"
+            android:textStyle="bold" >
+        </TextView>
+ 
+        <TextView
+            android:id="@+id/textView42"
+            android:gravity="center_horizontal"
+             android:textColor="#000000"
+            android:text="" >
+        </TextView>
+ 
+        <TextView
+            android:id="@+id/textView43"
+            android:gravity="center_horizontal"
+             android:textColor="#000000"
+            android:text="" >
+        </TextView>
+ 
+        <TextView
+            android:id="@+id/textView44"
+            android:gravity="center_horizontal"
+            android:textColor="#000000"
+            android:text="" >
+        </TextView>
+    </TableRow>
+        <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+ 
+        <TextView
+            android:id="@+id/textView41"
+            android:text="2013008"
+             android:textColor="#000000"
+            android:textStyle="bold" >
+        </TextView>
+ 
+        <TextView
+            android:id="@+id/textView42"
+            android:gravity="center_horizontal"
+             android:textColor="#000000"
+            android:text="Cense" >
+        </TextView>
+ 
+        <TextView
+            android:id="@+id/textView43"
+            android:gravity="center_horizontal"
+             android:textColor="#000000"
+            android:text="GPRS" >
+        </TextView>
+ 
+        <TextView
+            android:id="@+id/textView44"
+            android:gravity="center_horizontal"
+            android:textColor="#000000"
+            android:text="MiCS-NO2" >
+        </TextView>
+    </TableRow>
+        <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+ 
+        <TextView
+            android:id="@+id/textView41"
+            android:text=""
+             android:textColor="#000000"
+            android:textStyle="bold" >
+        </TextView>
+ 
+        <TextView
+            android:id="@+id/textView42"
+            android:gravity="center_horizontal"
+             android:textColor="#000000"
+            android:text="" >
+        </TextView>
+ 
+        <TextView
+            android:id="@+id/textView43"
+            android:gravity="center_horizontal"
+             android:textColor="#000000"
+            android:text="" >
+        </TextView>
+ 
+        <TextView
+            android:id="@+id/textView44"
+            android:gravity="center_horizontal"
+            android:textColor="#000000"
+            android:text="" >
+        </TextView>
+    </TableRow>
+        <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+ 
+        <TextView
+            android:id="@+id/textView41"
+            android:text=""
+             android:textColor="#000000"
+            android:textStyle="bold" >
+        </TextView>
+ 
+        <TextView
+            android:id="@+id/textView42"
+            android:gravity="center_horizontal"
+             android:textColor="#000000"
+            android:text="" >
+        </TextView>
+ 
+        <TextView
+            android:id="@+id/textView43"
+            android:gravity="center_horizontal"
+             android:textColor="#000000"
+            android:text="" >
+        </TextView>
+ 
+        <TextView
+            android:id="@+id/textView44"
+            android:gravity="center_horizontal"
+            android:textColor="#000000"
+            android:text="" >
+        </TextView>
+    </TableRow>
+        <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+ 
+        <TextView
+            android:id="@+id/textView41"
+            android:text=""
+             android:textColor="#000000"
+            android:textStyle="bold" >
+        </TextView>
+ 
+        <TextView
+            android:id="@+id/textView42"
+            android:gravity="center_horizontal"
+             android:textColor="#000000"
+            android:text="" >
+        </TextView>
+ 
+        <TextView
+            android:id="@+id/textView43"
+            android:gravity="center_horizontal"
+             android:textColor="#000000"
+            android:text="" >
+        </TextView>
+ 
+        <TextView
+            android:id="@+id/textView44"
+            android:gravity="center_horizontal"
+            android:textColor="#000000"
+            android:text="" >
+        </TextView>
+    </TableRow>
+
+        <Button
+        android:id="@+id/b1"
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:text="Back" />
+    
+</TableLayout>

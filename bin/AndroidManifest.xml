@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.androidhive"
+    android:versionCode="1"
+    android:debuggable="true"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="8" />
+
+    <application
+        android:icon="@drawable/aa"
+        android:label="@string/app_name" >
+        <activity
+            android:label="@string/app_name"
+            android:name="flash1" >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <!--  Login Activity -->
+        <activity
+            android:label="Login Account" 
+            android:name=".LoginActivity"></activity>
+
+        <!--  Register Activity -->
+        <activity
+            android:label="Register New Account" 
+            android:name=".RegisterActivity"></activity>
+        <activity 
+            android:name=".DashboardActivity"></activity>
+          <activity 
+            android:name=".flash2"></activity>
+           <activity 
+            android:name=".MainActivity"></activity>
+           <activity 
+            android:name=".html"></activity>
+            <activity 
+            android:name=".GetDataFromDB"></activity>
+             <activity 
+            android:name=".Users"></activity>
+               <activity 
+            android:name=".TestExternalDatabaseActivity"></activity>
+                   <activity 
+            android:name=".BluetoothChat"></activity>
+                       <activity 
+            android:name=".BluetoothChatService"></activity>
+                           <activity 
+            android:name=".DeviceListActivity"></activity>
+                           <activity 
+            android:name=".explodr1"></activity>
+                           <activity 
+            android:name=".pdfloader1"></activity>
+                           <activity 
+            android:name=".Activity1"></activity>
+                            <activity 
+            android:name=".deviceinfo"></activity>
+                             <activity 
+            android:name=".Firstpage"></activity>
+                             <activity 
+            android:name=".WebViewDemoActivity"></activity>
+                              <activity 
+            android:name=".DbselectActivity"></activity>
+                                        <activity 
+            android:name=".CopyWebViewDemoActivity"></activity>
+                 
+    </application>
+    
+    <!-- Allow to connect with internet -->
+	<uses-permission android:name="android.permission.INTERNET" />
+	    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+ <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+ <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+</manifest>

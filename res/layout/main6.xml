@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:orientation="vertical"
+android:background="@drawable/trial11"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+
+  <ImageView
+      android:id="@+id/imageView1"
+      android:layout_width="match_parent"
+      android:layout_height="50dp"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentTop="true"
+      android:layout_margin="0px"
+      android:padding="0px"
+      android:src="@drawable/capture3" />
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" >
+  </RelativeLayout>
+
+  <TableLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentLeft="true"
+      android:layout_below="@+id/imageView1"
+      android:layout_marginTop="30dp" >
+
+      <TextView
+          android:id="@+id/textView1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Enter the Device Place "
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:textColor="#000000" />
+
+      <Spinner
+          android:id="@+id/spinner"
+          android:layout_width="fill_parent"
+          android:layout_height="57dp" />
+
+      <TextView
+          android:id="@+id/textView1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Select the sensor"
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:textColor="#000000" />
+
+      <Spinner
+          android:id="@+id/spinner3"
+          android:layout_width="fill_parent"
+          android:layout_height="60dp" />
+
+      <TextView
+          android:id="@+id/textView1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Graph Displaying Type"
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:textColor="#000000" />
+
+      <TableRow>
+      </TableRow>
+
+      <TableRow>
+      </TableRow>
+
+      <TableRow>
+      </TableRow>
+
+      <TableRow>
+      </TableRow>
+  </TableLayout>
+
+  <Spinner
+      android:id="@+id/spinner4"
+      android:layout_width="fill_parent"
+      android:layout_height="60dp" />
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" >
+
+  </RelativeLayout>
+
+<LinearLayout
+    android:id="@+id/documento_twopane_buttons1"
+    style="android:attr/buttonBarStyle"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="bottom"
+    android:baselineAligned="false"
+    android:gravity="bottom"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+
+    <Button
+        android:id="@+id/b2"
+        android:text="Graph"
+        android:layout_width="158dp"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+  
+</LinearLayout>
